@@ -1,0 +1,38 @@
+store  $store.data.x
+bárhol elérhető, nem kell requireölni
+Vue instance-hoz tartozik, azzal jön létre
+
+
+store.commit()  -> snackbar, errorkezelő
+
+<router-link>   ez is kell , hogy a ruter működjön!
+
+
+
+this.emit --> child visszaszól a szülőnek, csak a oözvetlen szülő
+szülő erre figyel:  @buttonClicked   $event
+
+watchers
+
+computed
+
+store-os változóra nem lehet figyelni küzvetlenül --> itt jön képbe a computed és watchers
+
+
+ha már A DATÁN VAN EGY PROPERTY, AZT MÁR NEM RAKHATOM A COMPUTEDBE, MÁS NÉVEN KELL
+
+ha arrow functiont hasznalok a watchernél, akkor a this értéke más! más a scope-ja
+
+props-ként kaphat szülőtől propot
+
+mounted , amikor már betölt a dom és azután hívódik meg
+
+created
+
+backend-model behúzva
+restClient
+createOne
+readOne stb. alapműveletek
+
+
+frontenden: await this.user.update

@@ -1,0 +1,23 @@
+selenium
+wdio
+
+sudo apt-get install openjdk-8-jdk
+
+
+selenium-standalone install
+s-s start
+(kulon tabon)
+
+s-s start
+
+
+
+.exit
+
+./node_modules/.bin/wdio wdio.conf.js
+
+
+mindent fel id-zni, selectorokkal bizonytalan dolgozni
+
+
+https://webdriver.io/docs/api.html  --> függvények

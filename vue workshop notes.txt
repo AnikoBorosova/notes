@@ -1,0 +1,35 @@
+vue workshop notes
+
+- pluginek - globális cuccokat beregisztrálni vue-ra, amiket többször használok az appban, rárak a vue-ra egy függvényt
+-mostani globals helyett
+- plugin visszaad egy prmiset, async visszaadja amire szükségrm van
+
+
+mixin
+-kódmegosztás
+- legikailag egy helyre tartozó kódok, funkciók
+- pl. azonos functiont behúzhatok több helyre
+- vue.extend  - rárakja a mixin propjait
+- pluginként minden vue instancre ráraknánk, mixinként meghatározható pl. 2-3
+- öröklődés rugalmas alternatívája
+
+
+directives
+- dom manipulációkor
+- custom binding knockoutban, init, updtae
+- itt több hook van, inserted, update, stb
+- el amire ráteszem a direktívát, mintha getElementId-val fognék meg egy elemet és manipuláni akarnám
+mert  vue újrarenderelhet elemeket, így amire referálni akarok, az lehet már nem létezik a manipuláció időpillanatában
+
+vuex
+- state management library, pattern
+- state propertyn van rajta egy adat, amire sok helyen szükség lehet, ahol mindegyik hozáfér
+- ha mindent mutationnel változtatok rajta, a state minden állapota visszatekerhető 
+- a mutációk nem lehetnek async műveletek
+- store-szervezés - átgondolni
+
+
+mutation vs action ??
+
+
+
